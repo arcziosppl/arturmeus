@@ -30,7 +30,7 @@ export default function Home(){
                 <div className={'flex justify-center items-center w-fit h-fit p-6 bg-white/5 backdrop-blur-lg rounded-3xl animate-pong'}>
                     <div className={'w-96 h-fit flex flex-col justify-center items-start'}>
                         <p className={'text-white text-4xl font-extrabold mt-1'}>Hello, I am Artur</p>
-                        <p className={'text-blue-700 font-roboto text-4xl font-extrabold mt-2'}><Typewriter options={{strings: ['Front End-Developer','Back End-Developer', 'Embedded Developer', 'CAD Designer'], loop: true, autoStart: true }} onInit={(typewriter)=> typewriter.pauseFor(1500).deleteAll().start()}></Typewriter></p>
+                        <p className={'text-blue-700 font-roboto text-4xl font-extrabold mt-2'}><Typewriter options={{strings: ['Front-End Developer','Back-End Developer', 'Embedded Developer', 'CAD Designer'], loop: true, autoStart: true }} onInit={(typewriter)=> typewriter.pauseFor(1500).deleteAll().start()}></Typewriter></p>
                         <p className={'text-white font-semibold mt-2'}>I am Front-End / Full-Stack Developer. Currently, I am a student of a technical school majoring in programming technology.</p>
                         <div className={'w-full h-fit flex gap-4 mt-2'}>
                             <a href="https://www.instagram.com/pan_hanczol/" target={'_blank'}><img src={insta} alt="instagram icon"/></a>
@@ -64,7 +64,7 @@ export default function Home(){
                     <p className={'text-blue-800 dark:text-blue-400 text-3xl font-sans'}>Technologies and Tools</p>
                     <p className={'text-gray-700 dark:text-white font-sans mt-2'}>Using a combination of cutting-edge technologies and reliable open-source software I build user-focused, performant apps and websites for smartphones, tablets, and desktops. </p>
                 </div>
-                <div className={'w-4/6 h-fit flex flex-wrap justify-center items-center mt-8'}>
+                <div className={'w-4/6 h-fit flex flex-wrap justify-center items-center mt-8 gap-4'}>
                     <TechCards></TechCards>
                 </div>
             </div>
