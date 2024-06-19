@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "ESP LED",
+    "description" : "This project is a web-based controller for an LED strip, designed to run on ESP32 or ESP8266 microcontrollers. It allows users to control the LED strip colors, toggle the strip on and off, and activate a rainbow animation effect, all through a web interface.",
+    "github_repo": "https://github.com/arcziosppl/esp_led/",
+    "image_path": "/projectImages/esp_led.png"
+  },
+  {
+    "id": 2,
+    "title": "ROVERCON",
+    "description" : "This project is an attempt to create a fully functioning replica of the Perserverance rover. An integrated research system with high scientific value and controlled via a web interface.",
+    "github_repo": "https://github.com/arcziosppl/Rovercon/",
+    "image_path": "/projectImages/rovercon.png"
+  },
+  {
+    "id": 3,
+    "title": "School",
+    "description" : "This project is an attempt to create a fully functioning replica of the Perserverance rover. An integrated research system with high scientific value and controlled via a web interface.",
+    "github_repo": "https://github.com/arcziosppl/School",
+    "image_path": "/projectImages/schooldev.png"
+  },
+  {
+    "id": 4,
+    "title": "Mobile apps",
+    "description" : "This project is an attempt to create a fully functioning replica of the Perserverance rover. An integrated research system with high scientific value and controlled via a web interface.",
+    "github_repo": "https://github.com/arcziosppl/Android",
+    "image_path": "/projectImages/mobileapp.png"
+  }
+]

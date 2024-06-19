@@ -13,7 +13,7 @@ export default function TechCards(){
             {
                 data.map((key: keyProp)=>{
                     return(
-                        <div className={'w-64 h-fit p-1 backdrop-blur-lg bg-gray-500/5 rounded-lg shadow-md flex justify-start items-center dark:bg-white/10'} key={key.id}>
+                        <div className={'w-64 h-fit p-1 backdrop-blur-lg bg-gray-500/5 rounded-lg shadow-md flex justify-start items-center dark:bg-white/10 hover:animate-littlejump'} key={key.id}>
                             <div>
                                 <img src={key.image_path} alt={key.title + "Icon"}/>
                             </div>
